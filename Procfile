@@ -1,1 +1,1 @@
-web:node src/server.js
+gunicorn project.wsgi:application --preload --workers 1
